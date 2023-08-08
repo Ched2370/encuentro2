@@ -1,10 +1,10 @@
 package proyectoclase2;
 
-public class gabriel {
+public class Gabriel {
     private String nombre;
     private int edad;
     
-    public gabriel(String nombre, int edad) {
+    public Gabriel(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
