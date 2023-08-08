@@ -14,6 +14,7 @@ public class Christian {
     }
 
     public int getEdad() {
+       int nombre = 0;
         return nombre;
     }
 
