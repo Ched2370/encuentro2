@@ -5,6 +5,8 @@
  */
 package proyectoclase2;
 
+import javax.swing.SwingUtilities;
+
 /**
  *
  * @author pc
