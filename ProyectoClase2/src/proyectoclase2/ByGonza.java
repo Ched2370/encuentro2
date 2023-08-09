@@ -27,7 +27,7 @@ public class ByGonza extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
     }
-  /*  Se comenta estas metodo ya que la llamada se hace desde el         main de la clase ProtectoClase2
+  /*  Se comenta este metodo ya que la llamada se hace desde el main de la clase ProtectoClase2
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
