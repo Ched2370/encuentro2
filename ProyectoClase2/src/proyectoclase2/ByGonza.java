@@ -6,10 +6,10 @@ import java.awt.*;
 public class ByGonza extends JFrame {
 
     public ByGonza() {
-        super("Hola a todos soy Gonza ❤️ !!!"); 
+        super("Hola a todos soy Gonza ❤️ !!!");
 
-        ImageIcon imagenIcono = new ImageIcon("ProyectoClase2/src/proyectoclase2/img/Img.png");
-        
+        mageIcon imagenIcono = new ImageIcon(getClass().getResource("img.png"));
+
         JLabel imagenLabel = new JLabel() {
             @Override
             public void paintComponent(Graphics g) {
@@ -17,9 +17,9 @@ public class ByGonza extends JFrame {
                 g.drawImage(imagenIcono.getImage(), 0, 0, getWidth(), getHeight(), this);
             }
         };
-        
+
         JPanel panel = new JPanel(new BorderLayout());
-         panel.add(imagenLabel, BorderLayout.CENTER);
+        panel.add(imagenLabel, BorderLayout.CENTER);
         add(panel);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -27,14 +27,15 @@ public class ByGonza extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
     }
-  /*  Se comenta este metodo ya que la llamada se hace desde el main de la clase ProtectoClase2
+
+    /*  //  Se comenta este metodo ya que la llamada se hace desde el main de la clase 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
                 new ByGonza();
             }
-        });
+        });//Aqui termina la llamada!
     }
   */
 }
